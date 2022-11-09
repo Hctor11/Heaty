@@ -13,6 +13,7 @@
   "author": "Hector",
   "license": "MIT",
   "dependencies": {
+    "lucide": "^0.99.0",
     "sass": "^1.56.0"
   }
 }
