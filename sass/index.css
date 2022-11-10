@@ -1,1 +1,21 @@
-/*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap");
+body {
+  margin: 30px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav button {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #141415;
+}/*# sourceMappingURL=index.css.map */
