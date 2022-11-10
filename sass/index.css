@@ -4,6 +4,11 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  background-color: #F2F5F8;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -18,4 +23,40 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   color: #141415;
+}
+
+.main-section {
+  margin: 200px 0 500px 0;
+}
+.main-section a {
+  text-decoration: none;
+  background-color: #B2CFE6;
+  color: #141415;
+  padding: 12px 132px;
+}
+
+#content {
+  margin-bottom: 225px;
+}
+#content select {
+  background: #B2CFE6;
+  border: none;
+  font-size: 14px;
+  height: 42px;
+  padding: 5px;
+  width: 100%;
+  margin: 6px 0;
+}
+#content input {
+  width: 99%;
+  height: 42px;
+  margin: 6px 0 24px 0;
+  padding: 0;
+  border: solid 2px #141415;
+}
+
+footer a {
+  text-decoration: none;
+  color: #141415;
+  font-weight: bolder;
 }/*# sourceMappingURL=index.css.map */

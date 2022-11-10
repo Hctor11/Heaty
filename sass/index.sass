@@ -9,13 +9,18 @@ $cyan: #B2CFE6
 $transparent: rgba(0, 0, 0, 0)
 
 // Convensions
-
 body
     margin: 30px
     padding: 0
     box-sizing: border-box
     font-family: 'Inter', sans-serif
+    background-color: $white
 
+html
+    scroll-behavior: smooth
+
+// style page
+    
 nav
     display: flex
     justify-content: space-between
@@ -29,3 +34,40 @@ nav
         font-weight: bold
         color: $black
 
+.main-section
+    margin: 200px 0 500px 0
+
+    a
+        text-decoration: none
+        background-color: $cyan
+        color: $black
+        padding: 12px 132px
+        
+
+
+#content
+    margin-bottom: 225px
+
+    select
+        background: $cyan
+        border: none
+        font-size: 14px
+        height: 42px
+        padding: 5px
+        width: 100%
+        margin: 6px 0
+
+    input
+        width: 99%
+        height: 42px
+        margin: 6px 0 24px 0   
+        padding: 0
+        border: solid 2px $black
+
+footer
+    a
+        text-decoration: none
+        color: $black
+        font-weight: bolder
+
+        

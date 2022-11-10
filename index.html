@@ -15,20 +15,24 @@
         <button onclick="nightMode()"><i icon-name="moon"></i></button>
       </nav>
 
-      <h1>The most simple temperature converter</h1>
-      <a href="#content">Let's go</a>
+      <div class="main-section">
+        <h1 class="main-title">The most simple temperature converter</h1>
+        <a href="#content">Let's go</a>
+      </div>
+
     </header>
     <section id="content">
-      <div class="input">
-        <select name="temperatures" id="temperature">
+      <h2>Insert your values</h2>
+      <div class="input-start">
+        <select name="temperatures" id="temperature" class="input-temperatures">
           <option value="celcius">Celcius</option>
           <option value="fahrenheit">Fahrenheit</option>
           <option value="kelvin">Kelvin</option>
         </select>
         <input type="number" />
       </div>
-      <div class="outout">
-        <select name="temperatures" id="temperature">
+      <div class="outout-start">
+        <select name="temperatures" id="temperature" class="output-temperatures">
           <option value="celcius">Celcius</option>
           <option value="fahrenheit">Fahrenheit</option>
           <option value="kelvin">Kelvin</option>
@@ -36,7 +40,9 @@
         <input type="number" />
       </div>
     </section>
-    <footer></footer>
+    <footer>
+      <a href="index.html">Heaty 2022</a>
+    </footer>
 
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
