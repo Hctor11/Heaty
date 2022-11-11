@@ -1,7 +1,8 @@
-// getting que elements
+// getting the input elements
 let celsius = document.getElementById('celsius');
 let fahrenheit = document.getElementById('fahrenheit');
 let kelvin = document.getElementById('kelvin');
+
 
 // functions
 celsius.oninput = () => {
@@ -29,4 +30,11 @@ kelvin.oninput = () => {
 
     let c = (parseFloat(kelvin.value) - 273.15);
     celsius.value = parseFloat(c.toFixed(2));
+}
+
+// dark mode functions
+
+const darkMode = () => {
+    let bodyElement = document.body;
+    bodyElement.classList.toggle("dark-mode")
 }

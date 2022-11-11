@@ -11,6 +11,17 @@ html {
   scroll-behavior: smooth;
 }
 
+.dark-mode {
+  background-color: #141415;
+  color: #F2F5F8;
+}
+.dark-mode a {
+  color: #F2F5F8;
+}
+.dark-mode svg {
+  fill: #F2F5F8;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -60,4 +71,22 @@ footer a {
   text-decoration: none;
   color: #141415;
   font-weight: bolder;
+}
+
+@media (min-width: 1024px) {
+  body {
+    margin: 30px 120px;
+  }
+  .main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-section a {
+    width: 50%;
+  }
+  #content {
+    padding-top: 100px;
+  }
 }/*# sourceMappingURL=index.css.map */

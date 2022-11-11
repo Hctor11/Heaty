@@ -19,6 +19,19 @@ body
 html
     scroll-behavior: smooth
 
+// dark mode
+
+.dark-mode
+    background-color: $black
+    color: $white 
+
+    a
+        color: $white
+
+    svg
+        fill: $white
+
+
 // style page
     
 nav
@@ -69,3 +82,21 @@ footer
         text-decoration: none
         color: $black
         font-weight: bolder
+
+// media queries
+
+@media (min-width: 1024px)
+    body
+        margin: 30px 120px
+
+    .main-section
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+
+        a
+            width: 50%
+            
+    #content
+        padding-top: 100px
