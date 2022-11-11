@@ -32,7 +32,7 @@ kelvin.oninput = () => {
     celsius.value = parseFloat(c.toFixed(2));
 }
 
-// dark mode functions
+// dark mode function
 
 const darkMode = () => {
     let bodyElement = document.body;
