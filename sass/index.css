@@ -49,10 +49,10 @@ nav a {
           text-decoration-color: #B2CFE6;
 }
 #content input {
-  width: 99%;
+  width: 97%;
   height: 42px;
   margin: 6px 0 24px 0;
-  padding: 0;
+  padding: 0 5px;
   border: solid 2px #141415;
 }
 
